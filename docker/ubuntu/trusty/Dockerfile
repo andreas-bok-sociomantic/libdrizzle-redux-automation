@@ -42,7 +42,6 @@ RUN rm -rf /tmp/* && \
 #   rm -rf /var/lib/apt/lists/*
 
 # clone libdrizzle-redux repository
-# private token 48f31b1992d315727537d0b64229764b0ba61d33
 RUN ls -la  /etc/ssl/certs/
 RUN cd ~ && \
     git clone https://github.com/sociomantic-tsunami/libdrizzle-redux.git
